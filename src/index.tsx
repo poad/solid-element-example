@@ -1,9 +1,5 @@
 /* @refresh reload */
-import { render } from 'solid-js/web';
+import './counter';
+import { html, render } from 'lit-html';
 
-import './index.css';
-import App from './App';
-
-const root = document.getElementById('root');
-
-render(() => <App />, root!);
+render(html`<solid-counter></solid-counter>`, document.getElementById('root')!);
