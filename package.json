@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@solidjs/testing-library": "^0.8.5",
-    "@testing-library/jest-dom": "^6.1.6",
+    "@testing-library/jest-dom": "^6.2.0",
     "@types/node": "^20.10.6",
     "@typescript-eslint/eslint-plugin": "^6.17.0",
     "@typescript-eslint/parser": "^6.17.0",
@@ -35,7 +35,7 @@
     "vite": "^5.0.10",
     "vite-plugin-babel": "^1.2.0",
     "vite-plugin-solid": "^2.8.0",
-    "vitest": "^1.1.1"
+    "vitest": "^1.1.2"
   },
   "dependencies": {
     "component-register": "^0.8.3",
