@@ -44,8 +44,8 @@ devDependencies:
     specifier: ^9.1.0
     version: 9.1.0(eslint@8.56.0)
   eslint-config-standard-with-typescript:
-    specifier: ^43.0.0
-    version: 43.0.0(@typescript-eslint/eslint-plugin@6.19.0)(eslint-plugin-import@2.29.1)(eslint-plugin-n@16.6.2)(eslint-plugin-promise@6.1.1)(eslint@8.56.0)(typescript@5.3.3)
+    specifier: ^43.0.1
+    version: 43.0.1(@typescript-eslint/eslint-plugin@6.19.0)(eslint-plugin-import@2.29.1)(eslint-plugin-n@16.6.2)(eslint-plugin-promise@6.1.1)(eslint@8.56.0)(typescript@5.3.3)
   eslint-plugin-import:
     specifier: ^2.29.1
     version: 2.29.1(@typescript-eslint/parser@6.19.0)(eslint@8.56.0)
@@ -62,8 +62,8 @@ devDependencies:
     specifier: ^3.2.4
     version: 3.2.4
   solid-devtools:
-    specifier: ^0.29.2
-    version: 0.29.2(solid-js@1.8.11)(vite@5.0.12)
+    specifier: ^0.29.3
+    version: 0.29.3(solid-js@1.8.11)(vite@5.0.12)
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
@@ -2007,8 +2007,8 @@ packages:
       eslint: 8.56.0
     dev: true
 
-  /eslint-config-standard-with-typescript@43.0.0(@typescript-eslint/eslint-plugin@6.19.0)(eslint-plugin-import@2.29.1)(eslint-plugin-n@16.6.2)(eslint-plugin-promise@6.1.1)(eslint@8.56.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-AT0qK01M5bmsWiE3UZvaQO5da1y1n6uQckAKqGNe6zPW5IOzgMLXZxw77nnFm+C11nxAZXsCPrbsgJhSrGfX6Q==}
+  /eslint-config-standard-with-typescript@43.0.1(@typescript-eslint/eslint-plugin@6.19.0)(eslint-plugin-import@2.29.1)(eslint-plugin-n@16.6.2)(eslint-plugin-promise@6.1.1)(eslint@8.56.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-WfZ986+qzIzX6dcr4yGUyVb/l9N3Z8wPXCc5z/70fljs3UbWhhV+WxrfgsqMToRzuuyX9MqZ974pq2UPhDTOcA==}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': ^6.4.0
       eslint: ^8.0.1
@@ -3552,12 +3552,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /solid-devtools@0.29.2(solid-js@1.8.11)(vite@5.0.12):
-    resolution: {integrity: sha512-sfGLBSIQ3E5dFha5UCE5wKnz+War99JNAOggfBbwhltXL8lbIG1PnKKB9N2pvloZuFzMtT/u1Qbb/ubqXnw2Sg==}
+  /solid-devtools@0.29.3(solid-js@1.8.11)(vite@5.0.12):
+    resolution: {integrity: sha512-9j3VxVbEoC54ML22gAMytR8ZS1nk9xKatsWziKSkI4c/Bcyh4sxQBGESHuXSLs9xaxpyGVTmFl3hknoxEpKzlA==}
     peerDependencies:
       solid-js: ^1.8.0
       solid-start: ^0.3.0
-      vite: ^2.2.3 || ^3.0.0 || ^4.0.0
+      vite: ^2.2.3 || ^3.0.0 || ^4.0.0 || ^5.0.0
     peerDependenciesMeta:
       solid-start:
         optional: true
