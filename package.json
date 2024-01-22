@@ -17,10 +17,10 @@
   },
   "devDependencies": {
     "@solidjs/testing-library": "^0.8.5",
-    "@testing-library/jest-dom": "^6.2.0",
+    "@testing-library/jest-dom": "^6.2.1",
     "@types/node": "^20.11.5",
-    "@typescript-eslint/eslint-plugin": "^6.19.0",
-    "@typescript-eslint/parser": "^6.19.0",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
     "babel-preset-solid": "^1.8.9",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
@@ -34,7 +34,7 @@
     "typescript": "^5.3.3",
     "vite": "^5.0.12",
     "vite-plugin-babel": "^1.2.0",
-    "vite-plugin-solid": "^2.8.2",
+    "vite-plugin-solid": "^2.8.3",
     "vitest": "^1.2.1"
   },
   "dependencies": {
