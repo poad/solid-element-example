@@ -18,7 +18,7 @@
   "devDependencies": {
     "@solidjs/testing-library": "^0.8.6",
     "@testing-library/jest-dom": "^6.4.0",
-    "@types/node": "^20.11.13",
+    "@types/node": "^20.11.14",
     "@typescript-eslint/eslint-plugin": "^6.20.0",
     "@typescript-eslint/parser": "^6.20.0",
     "babel-preset-solid": "^1.8.12",
@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "component-register": "^0.8.3",
-    "lit-html": "^3.1.1",
+    "lit-html": "^3.1.2",
     "solid-element": "^1.8.0",
     "solid-js": "^1.8.12"
   }
