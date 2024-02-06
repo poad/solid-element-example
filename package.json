@@ -19,8 +19,8 @@
     "@solidjs/testing-library": "^0.8.6",
     "@testing-library/jest-dom": "^6.4.2",
     "@types/node": "^20.11.16",
-    "@typescript-eslint/eslint-plugin": "^6.20.0",
-    "@typescript-eslint/parser": "^6.20.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
     "babel-preset-solid": "^1.8.12",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
@@ -41,6 +41,6 @@
     "component-register": "^0.8.3",
     "lit-html": "^3.1.2",
     "solid-element": "^1.8.0",
-    "solid-js": "^1.8.12"
+    "solid-js": "^1.8.14"
   }
 }
