@@ -21,7 +21,7 @@ dependencies:
 devDependencies:
   '@solidjs/testing-library':
     specifier: ^0.8.6
-    version: 0.8.6(@solidjs/router@0.11.5)(solid-js@1.8.14)
+    version: 0.8.6(@solidjs/router@0.12.0)(solid-js@1.8.14)
   '@testing-library/jest-dom':
     specifier: ^6.4.2
     version: 6.4.2(vitest@1.2.2)
@@ -63,19 +63,19 @@ devDependencies:
     version: 3.2.5
   solid-devtools:
     specifier: ^0.29.3
-    version: 0.29.3(solid-js@1.8.14)(vite@5.1.0)
+    version: 0.29.3(solid-js@1.8.14)(vite@5.1.1)
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
   vite:
-    specifier: ^5.1.0
-    version: 5.1.0(@types/node@20.11.17)
+    specifier: ^5.1.1
+    version: 5.1.1(@types/node@20.11.17)
   vite-plugin-babel:
     specifier: ^1.2.0
-    version: 1.2.0(@babel/core@7.23.9)(vite@5.1.0)
+    version: 1.2.0(@babel/core@7.23.9)(vite@5.1.1)
   vite-plugin-solid:
     specifier: ^2.9.1
-    version: 2.9.1(@testing-library/jest-dom@6.4.2)(solid-js@1.8.14)(vite@5.1.0)
+    version: 2.9.1(@testing-library/jest-dom@6.4.2)(solid-js@1.8.14)(vite@5.1.1)
   vitest:
     specifier: ^1.2.2
     version: 1.2.2(@types/node@20.11.17)(jsdom@24.0.0)
@@ -949,22 +949,22 @@ packages:
       solid-js: 1.8.14
     dev: true
 
-  /@solidjs/router@0.11.5(solid-js@1.8.14):
-    resolution: {integrity: sha512-nclebUUufZT37rB5l0LbJn92vZwJOhYVltfjfLFI3yAcMlwiil5JOy6X2FEgekWsoX29No/GCBTkYfrSZCRfaw==}
+  /@solidjs/router@0.12.0(solid-js@1.8.14):
+    resolution: {integrity: sha512-9dyBL35T7x86RBSJBMu9jLGytBTmWQehb0uxez7TfzYtwI+v9poo2fzRbcCCrWVTQkwGD/rWvqmxUvczp2at3A==}
     peerDependencies:
       solid-js: ^1.8.6
     dependencies:
       solid-js: 1.8.14
     dev: true
 
-  /@solidjs/testing-library@0.8.6(@solidjs/router@0.11.5)(solid-js@1.8.14):
+  /@solidjs/testing-library@0.8.6(@solidjs/router@0.12.0)(solid-js@1.8.14):
     resolution: {integrity: sha512-MnDGfUw38SjE+lmCDZ44HeZq5WbDU7s/BTa7uvqv55GKatddoWiJmHanUAbuEtmwMdEv+fFQQzftkqrFXEn1BQ==}
     engines: {node: '>= 14'}
     peerDependencies:
       '@solidjs/router': '>=0.9.0'
       solid-js: '>=1.0.0'
     dependencies:
-      '@solidjs/router': 0.11.5(solid-js@1.8.14)
+      '@solidjs/router': 0.12.0(solid-js@1.8.14)
       '@testing-library/dom': 9.3.4
       solid-js: 1.8.14
     dev: true
@@ -1471,7 +1471,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001585
-      electron-to-chromium: 1.4.662
+      electron-to-chromium: 1.4.665
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.3)
     dev: true
@@ -1751,8 +1751,8 @@ packages:
     resolution: {integrity: sha512-7ZgogeTnjuHbo+ct10G9Ffp0mif17idi0IyWNVA/wcwcm7NPOD/WEHVP3n7n3MhXqxoIYm8d6MuZohYWIZ4T3w==}
     dev: true
 
-  /electron-to-chromium@1.4.662:
-    resolution: {integrity: sha512-gfl1XVWTQmPHhqEG0kN77SpUxaqPpMb9r83PT4gvKhg7P3irSxru3lW85RxvK1uI1j2CAcTWPjG/HbE0IP/Rtg==}
+  /electron-to-chromium@1.4.665:
+    resolution: {integrity: sha512-UpyCWObBoD+nSZgOC2ToaIdZB0r9GhqT2WahPKiSki6ckkSuKhQNso8V2PrFcHBMleI/eqbKgVQgVC4Wni4ilw==}
     dev: true
 
   /entities@4.5.0:
@@ -3463,7 +3463,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /solid-devtools@0.29.3(solid-js@1.8.14)(vite@5.1.0):
+  /solid-devtools@0.29.3(solid-js@1.8.14)(vite@5.1.1):
     resolution: {integrity: sha512-9j3VxVbEoC54ML22gAMytR8ZS1nk9xKatsWziKSkI4c/Bcyh4sxQBGESHuXSLs9xaxpyGVTmFl3hknoxEpKzlA==}
     peerDependencies:
       solid-js: ^1.8.0
@@ -3481,7 +3481,7 @@ packages:
       '@solid-devtools/debugger': 0.23.3(solid-js@1.8.14)
       '@solid-devtools/shared': 0.13.1(solid-js@1.8.14)
       solid-js: 1.8.14
-      vite: 5.1.0(@types/node@20.11.17)
+      vite: 5.1.1(@types/node@20.11.17)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3819,7 +3819,7 @@ packages:
       debug: 4.3.4
       pathe: 1.1.2
       picocolors: 1.0.0
-      vite: 5.1.0(@types/node@20.11.17)
+      vite: 5.1.1(@types/node@20.11.17)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -3831,17 +3831,17 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-babel@1.2.0(@babel/core@7.23.9)(vite@5.1.0):
+  /vite-plugin-babel@1.2.0(@babel/core@7.23.9)(vite@5.1.1):
     resolution: {integrity: sha512-ltAnq535Ubf9sDbVCkztAdkwx5aQbNrwPFs+iZTJ5FaAhTdxjqmLGpxsAaRfJWEKBJ/kFf9KwMoTdArm0IRUUw==}
     peerDependencies:
       '@babel/core': ^7.0.0
       vite: ^2.7.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
     dependencies:
       '@babel/core': 7.23.9
-      vite: 5.1.0(@types/node@20.11.17)
+      vite: 5.1.1(@types/node@20.11.17)
     dev: true
 
-  /vite-plugin-solid@2.9.1(@testing-library/jest-dom@6.4.2)(solid-js@1.8.14)(vite@5.1.0):
+  /vite-plugin-solid@2.9.1(@testing-library/jest-dom@6.4.2)(solid-js@1.8.14)(vite@5.1.1):
     resolution: {integrity: sha512-RC4hj+lbvljw57BbMGDApvEOPEh14lwrr/GeXRLNQLcR1qnOdzOwwTSFy13Gj/6FNIZpBEl0bWPU+VYFawrqUw==}
     peerDependencies:
       '@testing-library/jest-dom': ^5.16.6 || ^5.17.0 || ^6.*
@@ -3858,14 +3858,14 @@ packages:
       merge-anything: 5.1.7
       solid-js: 1.8.14
       solid-refresh: 0.6.3(solid-js@1.8.14)
-      vite: 5.1.0(@types/node@20.11.17)
-      vitefu: 0.2.5(vite@5.1.0)
+      vite: 5.1.1(@types/node@20.11.17)
+      vitefu: 0.2.5(vite@5.1.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@5.1.0(@types/node@20.11.17):
-    resolution: {integrity: sha512-STmSFzhY4ljuhz14bg9LkMTk3d98IO6DIArnTY6MeBwiD1Za2StcQtz7fzOUnRCqrHSD5+OS2reg4HOz1eoLnw==}
+  /vite@5.1.1(@types/node@20.11.17):
+    resolution: {integrity: sha512-wclpAgY3F1tR7t9LL5CcHC41YPkQIpKUGeIuT8MdNwNZr6OqOTLs7JX5vIHAtzqLWXts0T+GDrh9pN2arneKqg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -3900,7 +3900,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitefu@0.2.5(vite@5.1.0):
+  /vitefu@0.2.5(vite@5.1.1):
     resolution: {integrity: sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -3908,7 +3908,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.1.0(@types/node@20.11.17)
+      vite: 5.1.1(@types/node@20.11.17)
     dev: true
 
   /vitest@1.2.2(@types/node@20.11.17)(jsdom@24.0.0):
@@ -3956,7 +3956,7 @@ packages:
       strip-literal: 1.3.0
       tinybench: 2.6.0
       tinypool: 0.8.2
-      vite: 5.1.0(@types/node@20.11.17)
+      vite: 5.1.1(@types/node@20.11.17)
       vite-node: 1.2.2(@types/node@20.11.17)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
