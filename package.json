@@ -21,7 +21,7 @@
     "@types/node": "^20.11.30",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.3.1",
-    "babel-preset-solid": "^1.8.15",
+    "babel-preset-solid": "^1.8.16",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-standard-with-typescript": "^43.0.1",
@@ -41,6 +41,6 @@
     "component-register": "^0.8.3",
     "lit-html": "^3.1.2",
     "solid-element": "^1.8.0",
-    "solid-js": "^1.8.15"
+    "solid-js": "^1.8.16"
   }
 }
