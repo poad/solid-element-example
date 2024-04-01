@@ -785,13 +785,13 @@ packages:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
 
-  /@solid-devtools/debugger@0.23.3(solid-js@1.8.16):
-    resolution: {integrity: sha512-VrgswTjb2FyHxQJp5y5u7OaJ2k1R14LYlAOX/1rDZrGHWKdGYCaWHGzxI7C8AExtMP+LS+WOxy0uXMPQpoAD2g==}
+  /@solid-devtools/debugger@0.23.4(solid-js@1.8.16):
+    resolution: {integrity: sha512-EfTB1Eo313wztQYGJ4Ec/wE70Ay2d603VCXfT3RlyqO5QfLrQGRHX5NXC07hJpQTJJJ3tbNgzO7+ZKo76MM5uA==}
     peerDependencies:
       solid-js: ^1.8.0
     dependencies:
       '@nothing-but/utils': 0.12.1
-      '@solid-devtools/shared': 0.13.1(solid-js@1.8.16)
+      '@solid-devtools/shared': 0.13.2(solid-js@1.8.16)
       '@solid-primitives/bounds': 0.0.118(solid-js@1.8.16)
       '@solid-primitives/cursor': 0.0.112(solid-js@1.8.16)
       '@solid-primitives/event-bus': 1.0.11(solid-js@1.8.16)
@@ -805,8 +805,8 @@ packages:
       solid-js: 1.8.16
     dev: true
 
-  /@solid-devtools/shared@0.13.1(solid-js@1.8.16):
-    resolution: {integrity: sha512-qaAcZF47FFr4alVQSy5ooLy7mMt4MMDxSHw52heY1oCut8yfXDrnLcYDONabfoin2WYIwsQpjYhryHgjtB0uDg==}
+  /@solid-devtools/shared@0.13.2(solid-js@1.8.16):
+    resolution: {integrity: sha512-Y4uaC4EfTVwBR537MZwfaY/eiWAh+hW4mbtnwNuUw/LFmitHSkQhNQTUlLQv/S0chtwrYWQBxvXos1dC7e8R9g==}
     peerDependencies:
       solid-js: ^1.8.0
     dependencies:
@@ -1558,7 +1558,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001603
-      electron-to-chromium: 1.4.722
+      electron-to-chromium: 1.4.723
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
     dev: true
@@ -1865,8 +1865,8 @@ packages:
     resolution: {integrity: sha512-7ZgogeTnjuHbo+ct10G9Ffp0mif17idi0IyWNVA/wcwcm7NPOD/WEHVP3n7n3MhXqxoIYm8d6MuZohYWIZ4T3w==}
     dev: true
 
-  /electron-to-chromium@1.4.722:
-    resolution: {integrity: sha512-5nLE0TWFFpZ80Crhtp4pIp8LXCztjYX41yUcV6b+bKR2PqzjskTMOOlBi1VjBHlvHwS+4gar7kNKOrsbsewEZQ==}
+  /electron-to-chromium@1.4.723:
+    resolution: {integrity: sha512-rxFVtrMGMFROr4qqU6n95rUi9IlfIm+lIAt+hOToy/9r6CDv0XiEcQdC3VP71y1pE5CFTzKV0RvxOGYCPWWHPw==}
     dev: true
 
   /entities@4.5.0:
@@ -3637,8 +3637,8 @@ packages:
       '@babel/core': 7.24.3
       '@babel/plugin-syntax-typescript': 7.24.1(@babel/core@7.24.3)
       '@babel/types': 7.24.0
-      '@solid-devtools/debugger': 0.23.3(solid-js@1.8.16)
-      '@solid-devtools/shared': 0.13.1(solid-js@1.8.16)
+      '@solid-devtools/debugger': 0.23.4(solid-js@1.8.16)
+      '@solid-devtools/shared': 0.13.2(solid-js@1.8.16)
       solid-js: 1.8.16
       vite: 5.2.7(@types/node@20.12.2)
     transitivePeerDependencies:
