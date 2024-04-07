@@ -1,6 +1,7 @@
 import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintImport from "eslint-plugin-import";
 import typeScriptESLintParser from '@typescript-eslint/parser';
+import solid from 'eslint-plugin-solid';
 
 export default [
   {
@@ -12,28 +13,14 @@ export default [
     },
   },
   {
-    ignores: ["./lib/**/*"],
-  },
-  {
     rules: {
       semi: ["error", "always"],
     },
   },
   {
-    files: ["./**/*.js"],
-    ignores: ["./*.config.js"],
-    languageOptions: {
-      ecmaVersion: "latest",
-      sourceType: "commonjs",
-      globals: {
-        FOO: "readonly",
-      },
+    plugins: {
+      solid,
     },
-    rules: {
-      semi: "error",
-    },
-  },
-  {
     files: ["./src/*.js", "./src/*.ts", "./src/*.jsx", "./src/*.tsx"],
     languageOptions: {
       globals: {
