@@ -26,10 +26,10 @@ importers:
         version: 0.8.7(solid-js@1.8.17)
       '@testing-library/jest-dom':
         specifier: ^6.4.2
-        version: 6.4.2(vitest@1.5.3(@types/node@20.12.7)(jsdom@24.0.0))
+        version: 6.4.2(vitest@1.5.3(@types/node@20.12.8)(jsdom@24.0.0))
       '@types/node':
-        specifier: ^20.12.7
-        version: 20.12.7
+        specifier: ^20.12.8
+        version: 20.12.8
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.8.0
         version: 7.8.0(@typescript-eslint/parser@7.8.0(eslint@9.1.1)(typescript@5.4.5))(eslint@9.1.1)(typescript@5.4.5)
@@ -62,22 +62,22 @@ importers:
         version: 3.2.5
       solid-devtools:
         specifier: ^0.30.1
-        version: 0.30.1(solid-js@1.8.17)(vite@5.2.10(@types/node@20.12.7))
+        version: 0.30.1(solid-js@1.8.17)(vite@5.2.10(@types/node@20.12.8))
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
       vite:
         specifier: ^5.2.10
-        version: 5.2.10(@types/node@20.12.7)
+        version: 5.2.10(@types/node@20.12.8)
       vite-plugin-babel:
         specifier: ^1.2.0
-        version: 1.2.0(@babel/core@7.24.5)(vite@5.2.10(@types/node@20.12.7))
+        version: 1.2.0(@babel/core@7.24.5)(vite@5.2.10(@types/node@20.12.8))
       vite-plugin-solid:
         specifier: ^2.10.2
-        version: 2.10.2(@testing-library/jest-dom@6.4.2(vitest@1.5.3(@types/node@20.12.7)(jsdom@24.0.0)))(solid-js@1.8.17)(vite@5.2.10(@types/node@20.12.7))
+        version: 2.10.2(@testing-library/jest-dom@6.4.2(vitest@1.5.3(@types/node@20.12.8)(jsdom@24.0.0)))(solid-js@1.8.17)(vite@5.2.10(@types/node@20.12.8))
       vitest:
         specifier: ^1.5.3
-        version: 1.5.3(@types/node@20.12.7)(jsdom@24.0.0)
+        version: 1.5.3(@types/node@20.12.8)(jsdom@24.0.0)
 
 packages:
 
@@ -638,8 +638,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@20.12.7':
-    resolution: {integrity: sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==}
+  '@types/node@20.12.8':
+    resolution: {integrity: sha512-NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==}
 
   '@types/semver@7.5.8':
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
@@ -1017,8 +1017,8 @@ packages:
   dom-accessibility-api@0.6.3:
     resolution: {integrity: sha512-7ZgogeTnjuHbo+ct10G9Ffp0mif17idi0IyWNVA/wcwcm7NPOD/WEHVP3n7n3MhXqxoIYm8d6MuZohYWIZ4T3w==}
 
-  electron-to-chromium@1.4.751:
-    resolution: {integrity: sha512-2DEPi++qa89SMGRhufWTiLmzqyuGmNF3SK4+PQetW1JKiZdEpF4XQonJXJCzyuYSA6mauiMhbyVhqYAP45Hvfw==}
+  electron-to-chromium@1.4.754:
+    resolution: {integrity: sha512-7Kr5jUdns5rL/M9wFFmMZAgFDuL2YOnanFH4OI4iFzUqyh3XOL7nAGbSlSMZdzKMIyyTpNSbqZsWG9odwLeKvA==}
 
   entities@4.5.0:
     resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
@@ -1612,8 +1612,8 @@ packages:
   minimist@1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
 
-  mlly@1.6.1:
-    resolution: {integrity: sha512-vLgaHvaeunuOXHSmEbZ9izxPx3USsk8KCQ8iC+aTlp5sKRSoZvwhHh5L9VbKSaVC6sJDqbyohIS76E2VmHIPAA==}
+  mlly@1.7.0:
+    resolution: {integrity: sha512-U9SDaXGEREBYQgfejV97coK0UL1r+qnF2SyO9A3qcI8MzKnsIFKHNVEkrDyNncQTKQQumsasmeq84eNMdBfsNQ==}
 
   ms@2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
@@ -2057,8 +2057,8 @@ packages:
     resolution: {integrity: sha512-CJ1QgKmNg3CwvAv/kOFmtnEN05f0D/cn9QntgNOQlQF9dgvVTHj3t+8JPdjqawCHk7V/KA+fbUqzZ9XWhcqPUg==}
     engines: {node: '>= 4.0.0'}
 
-  update-browserslist-db@1.0.13:
-    resolution: {integrity: sha512-xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==}
+  update-browserslist-db@1.0.14:
+    resolution: {integrity: sha512-JixKH8GR2pWYshIPUg/NujK3JO7JiqEEUiNArE86NQyrgUuZeTlZQN3xuS/yiV5Kb48ev9K6RqNkaJjXsdg7Jw==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
@@ -2709,7 +2709,7 @@ snapshots:
       lz-string: 1.5.0
       pretty-format: 27.5.1
 
-  '@testing-library/jest-dom@6.4.2(vitest@1.5.3(@types/node@20.12.7)(jsdom@24.0.0))':
+  '@testing-library/jest-dom@6.4.2(vitest@1.5.3(@types/node@20.12.8)(jsdom@24.0.0))':
     dependencies:
       '@adobe/css-tools': 4.3.3
       '@babel/runtime': 7.24.5
@@ -2720,7 +2720,7 @@ snapshots:
       lodash: 4.17.21
       redent: 3.0.0
     optionalDependencies:
-      vitest: 1.5.3(@types/node@20.12.7)(jsdom@24.0.0)
+      vitest: 1.5.3(@types/node@20.12.8)(jsdom@24.0.0)
 
   '@types/aria-query@5.0.4': {}
 
@@ -2751,7 +2751,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@20.12.7':
+  '@types/node@20.12.8':
     dependencies:
       undici-types: 5.26.5
 
@@ -3048,9 +3048,9 @@ snapshots:
   browserslist@4.23.0:
     dependencies:
       caniuse-lite: 1.0.30001614
-      electron-to-chromium: 1.4.751
+      electron-to-chromium: 1.4.754
       node-releases: 2.0.14
-      update-browserslist-db: 1.0.13(browserslist@4.23.0)
+      update-browserslist-db: 1.0.14(browserslist@4.23.0)
 
   cac@6.7.14: {}
 
@@ -3224,7 +3224,7 @@ snapshots:
 
   dom-accessibility-api@0.6.3: {}
 
-  electron-to-chromium@1.4.751: {}
+  electron-to-chromium@1.4.754: {}
 
   entities@4.5.0: {}
 
@@ -3853,7 +3853,7 @@ snapshots:
 
   local-pkg@0.5.0:
     dependencies:
-      mlly: 1.6.1
+      mlly: 1.7.0
       pkg-types: 1.1.0
 
   locate-path@6.0.0:
@@ -3919,7 +3919,7 @@ snapshots:
 
   minimist@1.2.8: {}
 
-  mlly@1.6.1:
+  mlly@1.7.0:
     dependencies:
       acorn: 8.11.3
       pathe: 1.1.2
@@ -4031,7 +4031,7 @@ snapshots:
   pkg-types@1.1.0:
     dependencies:
       confbox: 0.1.7
-      mlly: 1.6.1
+      mlly: 1.7.0
       pathe: 1.1.2
 
   possible-typed-array-names@1.0.0: {}
@@ -4194,7 +4194,7 @@ snapshots:
 
   slash@3.0.0: {}
 
-  solid-devtools@0.30.1(solid-js@1.8.17)(vite@5.2.10(@types/node@20.12.7)):
+  solid-devtools@0.30.1(solid-js@1.8.17)(vite@5.2.10(@types/node@20.12.8)):
     dependencies:
       '@babel/core': 7.24.5
       '@babel/plugin-syntax-typescript': 7.24.1(@babel/core@7.24.5)
@@ -4203,7 +4203,7 @@ snapshots:
       '@solid-devtools/shared': 0.13.2(solid-js@1.8.17)
       solid-js: 1.8.17
     optionalDependencies:
-      vite: 5.2.10(@types/node@20.12.7)
+      vite: 5.2.10(@types/node@20.12.8)
     transitivePeerDependencies:
       - supports-color
 
@@ -4384,7 +4384,7 @@ snapshots:
 
   universalify@0.2.0: {}
 
-  update-browserslist-db@1.0.13(browserslist@4.23.0):
+  update-browserslist-db@1.0.14(browserslist@4.23.0):
     dependencies:
       browserslist: 4.23.0
       escalade: 3.1.2
@@ -4401,13 +4401,13 @@ snapshots:
 
   validate-html-nesting@1.2.2: {}
 
-  vite-node@1.5.3(@types/node@20.12.7):
+  vite-node@1.5.3(@types/node@20.12.8):
     dependencies:
       cac: 6.7.14
       debug: 4.3.4
       pathe: 1.1.2
       picocolors: 1.0.0
-      vite: 5.2.10(@types/node@20.12.7)
+      vite: 5.2.10(@types/node@20.12.8)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -4418,12 +4418,12 @@ snapshots:
       - supports-color
       - terser
 
-  vite-plugin-babel@1.2.0(@babel/core@7.24.5)(vite@5.2.10(@types/node@20.12.7)):
+  vite-plugin-babel@1.2.0(@babel/core@7.24.5)(vite@5.2.10(@types/node@20.12.8)):
     dependencies:
       '@babel/core': 7.24.5
-      vite: 5.2.10(@types/node@20.12.7)
+      vite: 5.2.10(@types/node@20.12.8)
 
-  vite-plugin-solid@2.10.2(@testing-library/jest-dom@6.4.2(vitest@1.5.3(@types/node@20.12.7)(jsdom@24.0.0)))(solid-js@1.8.17)(vite@5.2.10(@types/node@20.12.7)):
+  vite-plugin-solid@2.10.2(@testing-library/jest-dom@6.4.2(vitest@1.5.3(@types/node@20.12.8)(jsdom@24.0.0)))(solid-js@1.8.17)(vite@5.2.10(@types/node@20.12.8)):
     dependencies:
       '@babel/core': 7.24.5
       '@types/babel__core': 7.20.5
@@ -4431,27 +4431,27 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.8.17
       solid-refresh: 0.6.3(solid-js@1.8.17)
-      vite: 5.2.10(@types/node@20.12.7)
-      vitefu: 0.2.5(vite@5.2.10(@types/node@20.12.7))
+      vite: 5.2.10(@types/node@20.12.8)
+      vitefu: 0.2.5(vite@5.2.10(@types/node@20.12.8))
     optionalDependencies:
-      '@testing-library/jest-dom': 6.4.2(vitest@1.5.3(@types/node@20.12.7)(jsdom@24.0.0))
+      '@testing-library/jest-dom': 6.4.2(vitest@1.5.3(@types/node@20.12.8)(jsdom@24.0.0))
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.2.10(@types/node@20.12.7):
+  vite@5.2.10(@types/node@20.12.8):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.17.2
     optionalDependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       fsevents: 2.3.3
 
-  vitefu@0.2.5(vite@5.2.10(@types/node@20.12.7)):
+  vitefu@0.2.5(vite@5.2.10(@types/node@20.12.8)):
     optionalDependencies:
-      vite: 5.2.10(@types/node@20.12.7)
+      vite: 5.2.10(@types/node@20.12.8)
 
-  vitest@1.5.3(@types/node@20.12.7)(jsdom@24.0.0):
+  vitest@1.5.3(@types/node@20.12.8)(jsdom@24.0.0):
     dependencies:
       '@vitest/expect': 1.5.3
       '@vitest/runner': 1.5.3
@@ -4470,11 +4470,11 @@ snapshots:
       strip-literal: 2.1.0
       tinybench: 2.8.0
       tinypool: 0.8.4
-      vite: 5.2.10(@types/node@20.12.7)
-      vite-node: 1.5.3(@types/node@20.12.7)
+      vite: 5.2.10(@types/node@20.12.8)
+      vite-node: 1.5.3(@types/node@20.12.8)
       why-is-node-running: 2.2.2
     optionalDependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       jsdom: 24.0.0
     transitivePeerDependencies:
       - less
