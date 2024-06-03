@@ -26,10 +26,10 @@ importers:
         version: 0.8.8(solid-js@1.8.17)
       '@testing-library/jest-dom':
         specifier: ^6.4.5
-        version: 6.4.5(vitest@1.6.0(@types/node@20.13.0)(jsdom@24.1.0))
+        version: 6.4.5(vitest@1.6.0(@types/node@20.14.0)(jsdom@24.1.0))
       '@types/node':
-        specifier: ^20.13.0
-        version: 20.13.0
+        specifier: ^20.14.0
+        version: 20.14.0
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.11.0
         version: 7.11.0(@typescript-eslint/parser@7.11.0(eslint@9.4.0)(typescript@5.4.5))(eslint@9.4.0)(typescript@5.4.5)
@@ -62,22 +62,22 @@ importers:
         version: 3.3.0
       solid-devtools:
         specifier: ^0.30.1
-        version: 0.30.1(solid-js@1.8.17)(vite@5.2.12(@types/node@20.13.0))
+        version: 0.30.1(solid-js@1.8.17)(vite@5.2.12(@types/node@20.14.0))
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
       vite:
         specifier: ^5.2.12
-        version: 5.2.12(@types/node@20.13.0)
+        version: 5.2.12(@types/node@20.14.0)
       vite-plugin-babel:
         specifier: ^1.2.0
-        version: 1.2.0(@babel/core@7.24.6)(vite@5.2.12(@types/node@20.13.0))
+        version: 1.2.0(@babel/core@7.24.6)(vite@5.2.12(@types/node@20.14.0))
       vite-plugin-solid:
         specifier: ^2.10.2
-        version: 2.10.2(@testing-library/jest-dom@6.4.5(vitest@1.6.0(@types/node@20.13.0)(jsdom@24.1.0)))(solid-js@1.8.17)(vite@5.2.12(@types/node@20.13.0))
+        version: 2.10.2(@testing-library/jest-dom@6.4.5(vitest@1.6.0(@types/node@20.14.0)(jsdom@24.1.0)))(solid-js@1.8.17)(vite@5.2.12(@types/node@20.14.0))
       vitest:
         specifier: ^1.6.0
-        version: 1.6.0(@types/node@20.13.0)(jsdom@24.1.0)
+        version: 1.6.0(@types/node@20.14.0)(jsdom@24.1.0)
 
 packages:
 
@@ -343,8 +343,8 @@ packages:
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
 
-  '@eslint-community/regexpp@4.10.0':
-    resolution: {integrity: sha512-Cu96Sd2By9mCNTx2iyKOmq10v22jUVQv0lQnlGNy16oE9589yE+QADPbrMGCkA51cKZSg3Pu/aTJVTGfL/qjUA==}
+  '@eslint-community/regexpp@4.10.1':
+    resolution: {integrity: sha512-Zm2NGpWELsQAD1xsJzGQpYfvICSsFkEpU0jxBjfdC6uNEWXcHnfs9hScFWtXVDVl+rBQJGrl4g1vcKIejpH9dA==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
 
   '@eslint/config-array@0.15.1':
@@ -636,8 +636,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@20.13.0':
-    resolution: {integrity: sha512-FM6AOb3khNkNIXPnHFDYaHerSv8uN22C91z098AnGccVu+Pcdhi+pNUFDi0iLmPIsVE0JBD0KVS7mzUYt4nRzQ==}
+  '@types/node@20.14.0':
+    resolution: {integrity: sha512-5cHBxFGJx6L4s56Bubp4fglrEpmyJypsqI6RgzMfBHWUJQGWAAi8cWcgetEbZXHYXo9C2Fa4EEds/uSyS4cxmA==}
 
   '@types/trusted-types@2.0.7':
     resolution: {integrity: sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==}
@@ -836,8 +836,8 @@ packages:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001626:
-    resolution: {integrity: sha512-JRW7kAH8PFJzoPCJhLSHgDgKg5348hsQ68aqb+slnzuB5QFERv846oA/mRChmlLAOdEDeOkRn3ynb1gSFnjt3w==}
+  caniuse-lite@1.0.30001627:
+    resolution: {integrity: sha512-4zgNiB8nTyV/tHhwZrFs88ryjls/lHiqFhrxCW4qSTeuRByBVnPYpDInchOIySWknznucaf31Z4KYqjfbrecVw==}
 
   chai@4.4.1:
     resolution: {integrity: sha512-13sOfMv2+DWduEU+/xbun3LScLoqN17nBeTLUsmDfKdoiC1fr0n9PU4guu4AhRcOVFk/sW8LyZWHuhWtQZiF+g==}
@@ -2376,7 +2376,7 @@ snapshots:
       eslint: 9.4.0
       eslint-visitor-keys: 3.4.3
 
-  '@eslint-community/regexpp@4.10.0': {}
+  '@eslint-community/regexpp@4.10.1': {}
 
   '@eslint/config-array@0.15.1':
     dependencies:
@@ -2624,7 +2624,7 @@ snapshots:
       lz-string: 1.5.0
       pretty-format: 27.5.1
 
-  '@testing-library/jest-dom@6.4.5(vitest@1.6.0(@types/node@20.13.0)(jsdom@24.1.0))':
+  '@testing-library/jest-dom@6.4.5(vitest@1.6.0(@types/node@20.14.0)(jsdom@24.1.0))':
     dependencies:
       '@adobe/css-tools': 4.3.3
       '@babel/runtime': 7.24.6
@@ -2635,7 +2635,7 @@ snapshots:
       lodash: 4.17.21
       redent: 3.0.0
     optionalDependencies:
-      vitest: 1.6.0(@types/node@20.13.0)(jsdom@24.1.0)
+      vitest: 1.6.0(@types/node@20.14.0)(jsdom@24.1.0)
 
   '@types/aria-query@5.0.4': {}
 
@@ -2664,7 +2664,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@20.13.0':
+  '@types/node@20.14.0':
     dependencies:
       undici-types: 5.26.5
 
@@ -2672,7 +2672,7 @@ snapshots:
 
   '@typescript-eslint/eslint-plugin@7.11.0(@typescript-eslint/parser@7.11.0(eslint@9.4.0)(typescript@5.4.5))(eslint@9.4.0)(typescript@5.4.5)':
     dependencies:
-      '@eslint-community/regexpp': 4.10.0
+      '@eslint-community/regexpp': 4.10.1
       '@typescript-eslint/parser': 7.11.0(eslint@9.4.0)(typescript@5.4.5)
       '@typescript-eslint/scope-manager': 7.11.0
       '@typescript-eslint/type-utils': 7.11.0(eslint@9.4.0)(typescript@5.4.5)
@@ -2908,7 +2908,7 @@ snapshots:
 
   browserslist@4.23.0:
     dependencies:
-      caniuse-lite: 1.0.30001626
+      caniuse-lite: 1.0.30001627
       electron-to-chromium: 1.4.788
       node-releases: 2.0.14
       update-browserslist-db: 1.0.16(browserslist@4.23.0)
@@ -2925,7 +2925,7 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  caniuse-lite@1.0.30001626: {}
+  caniuse-lite@1.0.30001627: {}
 
   chai@4.4.1:
     dependencies:
@@ -3258,7 +3258,7 @@ snapshots:
   eslint@9.4.0:
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.4.0)
-      '@eslint-community/regexpp': 4.10.0
+      '@eslint-community/regexpp': 4.10.1
       '@eslint/config-array': 0.15.1
       '@eslint/eslintrc': 3.1.0
       '@eslint/js': 9.4.0
@@ -3993,7 +3993,7 @@ snapshots:
 
   slash@3.0.0: {}
 
-  solid-devtools@0.30.1(solid-js@1.8.17)(vite@5.2.12(@types/node@20.13.0)):
+  solid-devtools@0.30.1(solid-js@1.8.17)(vite@5.2.12(@types/node@20.14.0)):
     dependencies:
       '@babel/core': 7.24.6
       '@babel/plugin-syntax-typescript': 7.24.6(@babel/core@7.24.6)
@@ -4002,7 +4002,7 @@ snapshots:
       '@solid-devtools/shared': 0.13.2(solid-js@1.8.17)
       solid-js: 1.8.17
     optionalDependencies:
-      vite: 5.2.12(@types/node@20.13.0)
+      vite: 5.2.12(@types/node@20.14.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -4196,13 +4196,13 @@ snapshots:
 
   validate-html-nesting@1.2.2: {}
 
-  vite-node@1.6.0(@types/node@20.13.0):
+  vite-node@1.6.0(@types/node@20.14.0):
     dependencies:
       cac: 6.7.14
       debug: 4.3.5
       pathe: 1.1.2
       picocolors: 1.0.1
-      vite: 5.2.12(@types/node@20.13.0)
+      vite: 5.2.12(@types/node@20.14.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -4213,12 +4213,12 @@ snapshots:
       - supports-color
       - terser
 
-  vite-plugin-babel@1.2.0(@babel/core@7.24.6)(vite@5.2.12(@types/node@20.13.0)):
+  vite-plugin-babel@1.2.0(@babel/core@7.24.6)(vite@5.2.12(@types/node@20.14.0)):
     dependencies:
       '@babel/core': 7.24.6
-      vite: 5.2.12(@types/node@20.13.0)
+      vite: 5.2.12(@types/node@20.14.0)
 
-  vite-plugin-solid@2.10.2(@testing-library/jest-dom@6.4.5(vitest@1.6.0(@types/node@20.13.0)(jsdom@24.1.0)))(solid-js@1.8.17)(vite@5.2.12(@types/node@20.13.0)):
+  vite-plugin-solid@2.10.2(@testing-library/jest-dom@6.4.5(vitest@1.6.0(@types/node@20.14.0)(jsdom@24.1.0)))(solid-js@1.8.17)(vite@5.2.12(@types/node@20.14.0)):
     dependencies:
       '@babel/core': 7.24.6
       '@types/babel__core': 7.20.5
@@ -4226,27 +4226,27 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.8.17
       solid-refresh: 0.6.3(solid-js@1.8.17)
-      vite: 5.2.12(@types/node@20.13.0)
-      vitefu: 0.2.5(vite@5.2.12(@types/node@20.13.0))
+      vite: 5.2.12(@types/node@20.14.0)
+      vitefu: 0.2.5(vite@5.2.12(@types/node@20.14.0))
     optionalDependencies:
-      '@testing-library/jest-dom': 6.4.5(vitest@1.6.0(@types/node@20.13.0)(jsdom@24.1.0))
+      '@testing-library/jest-dom': 6.4.5(vitest@1.6.0(@types/node@20.14.0)(jsdom@24.1.0))
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.2.12(@types/node@20.13.0):
+  vite@5.2.12(@types/node@20.14.0):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.18.0
     optionalDependencies:
-      '@types/node': 20.13.0
+      '@types/node': 20.14.0
       fsevents: 2.3.3
 
-  vitefu@0.2.5(vite@5.2.12(@types/node@20.13.0)):
+  vitefu@0.2.5(vite@5.2.12(@types/node@20.14.0)):
     optionalDependencies:
-      vite: 5.2.12(@types/node@20.13.0)
+      vite: 5.2.12(@types/node@20.14.0)
 
-  vitest@1.6.0(@types/node@20.13.0)(jsdom@24.1.0):
+  vitest@1.6.0(@types/node@20.14.0)(jsdom@24.1.0):
     dependencies:
       '@vitest/expect': 1.6.0
       '@vitest/runner': 1.6.0
@@ -4265,11 +4265,11 @@ snapshots:
       strip-literal: 2.1.0
       tinybench: 2.8.0
       tinypool: 0.8.4
-      vite: 5.2.12(@types/node@20.13.0)
-      vite-node: 1.6.0(@types/node@20.13.0)
+      vite: 5.2.12(@types/node@20.14.0)
+      vite-node: 1.6.0(@types/node@20.14.0)
       why-is-node-running: 2.2.2
     optionalDependencies:
-      '@types/node': 20.13.0
+      '@types/node': 20.14.0
       jsdom: 24.1.0
     transitivePeerDependencies:
       - less
