@@ -34,7 +34,7 @@
     "vite": "^5.3.5",
     "vite-plugin-babel": "^1.2.0",
     "vite-plugin-solid": "^2.10.2",
-    "vitest": "^2.0.4"
+    "vitest": "^2.0.5"
   },
   "dependencies": {
     "component-register": "^0.8.5",
