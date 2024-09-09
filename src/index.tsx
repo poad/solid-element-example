@@ -2,4 +2,6 @@
 import './counter';
 import { html, render } from 'lit-html';
 
-render(html`<solid-counter></solid-counter>`, document.getElementById('root')!);
+const root = document.getElementById('root');
+
+if (root) { render(html`<solid-counter></solid-counter>`, root); }
