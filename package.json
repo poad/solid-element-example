@@ -19,7 +19,7 @@
     "@stylistic/eslint-plugin-plus": "^2.8.0",
     "@stylistic/eslint-plugin-ts": "^2.8.0",
     "@testing-library/jest-dom": "^6.5.0",
-    "@types/node": "^22.5.4",
+    "@types/node": "^22.5.5",
     "babel-preset-solid": "^1.8.22",
     "eslint": "^9.10.0",
     "eslint-plugin-import": "^2.30.0",
@@ -33,7 +33,7 @@
     "vite": "^5.4.5",
     "vite-plugin-babel": "^1.2.0",
     "vite-plugin-solid": "^2.10.2",
-    "vitest": "^2.1.0"
+    "vitest": "^2.1.1"
   },
   "dependencies": {
     "component-register": "^0.8.6",
