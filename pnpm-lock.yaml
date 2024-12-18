@@ -67,8 +67,8 @@ importers:
         specifier: ^3.4.2
         version: 3.4.2
       solid-devtools:
-        specifier: ^0.31.4
-        version: 0.31.4(solid-js@1.9.3)(vite@6.0.3(@types/node@22.10.2))
+        specifier: ^0.31.5
+        version: 0.31.5(solid-js@1.9.3)(vite@6.0.3(@types/node@22.10.2))
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -651,13 +651,13 @@ packages:
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
 
-  '@solid-devtools/debugger@0.24.3':
-    resolution: {integrity: sha512-yx6HpH8wzOJJMY6ixIcFAVMQuQsFwQPd6DzNp1GBcopCYoFopTOxo746MP66y3rSHJOraVV9UVY7PPD9DnF/lw==}
+  '@solid-devtools/debugger@0.24.4':
+    resolution: {integrity: sha512-tjoPPNqIFeNhDL5cAk8TMWtbZZUEnjcGhSD4Nbj9no0USFAF4z0+u84IiSZyK/oGZpcVh1Aan4zTdK1SLMK/Qg==}
     peerDependencies:
       solid-js: ^1.9.0
 
-  '@solid-devtools/shared@0.16.0':
-    resolution: {integrity: sha512-vmrHvXom0/mEIdyVOTWHa54db2IljdqYCuMyFXkqt9sEQmUMbHXMqoTljKDViaueK/y+7Cu1vDjuy+8FmB7ziQ==}
+  '@solid-devtools/shared@0.16.1':
+    resolution: {integrity: sha512-wuNbhER510E+VFI+7XQ2vkOSDzTbHDt323yGdW5OZHf8qb/jDmtKBeQmbgeVLSn+ASMP4Hkg//JeVXZra2kTsg==}
     peerDependencies:
       solid-js: ^1.9.0
 
@@ -1348,8 +1348,8 @@ packages:
     resolution: {integrity: sha512-qxsEs+9A+u85HhllWJJFicJfPDhRmjzoYdl64aMWW9yRIJmSyxdn8IEkuIM530/7T+lv0TIHd8L6Q/ra0tEoeA==}
     engines: {node: '>= 0.4'}
 
-  get-symbol-description@1.0.2:
-    resolution: {integrity: sha512-g0QYk1dZBxGwk+Ngc+ltRH2IBp2f7zBkBMBJZCDerh6EhlhSR6+9irMCuT/09zD6qkarHUSn529sK/yL4S27mg==}
+  get-symbol-description@1.1.0:
+    resolution: {integrity: sha512-w9UMqWwJxHNOvoNzSJ2oPF5wvYcvP7jUvYzhp67yEhTi17ZDBBC1z9pTdGuzjD+EFIqLSYRweZjqfiPzQ06Ebg==}
     engines: {node: '>= 0.4'}
 
   glob-parent@5.1.2:
@@ -1542,8 +1542,8 @@ packages:
     resolution: {integrity: sha512-9gGx6GTtCQM73BgmHQXfDmLtfjjTUDSyoxTCbp5WtoixAhfgsDirWIcVQ/IHpvI5Vgd5i/J5F7B9cN/WlVbC/w==}
     engines: {node: '>= 0.4'}
 
-  is-typed-array@1.1.13:
-    resolution: {integrity: sha512-uZ25/bUAlUY5fR4OKT4rZQEBrzQWYV9ZJYGGsUmEJ6thodVJ1HX64ePQ6Z0qPWP+m+Uq6e9UugrE38jeYsDSMw==}
+  is-typed-array@1.1.14:
+    resolution: {integrity: sha512-lQUsHzcTb7rH57dajbOuZEuMDXjs9f04ZloER4QOpjpKcaw4f98BRUrs8aiO9Z4G7i7B0Xhgarg6SCgYcYi8Nw==}
     engines: {node: '>= 0.4'}
 
   is-weakmap@2.0.2:
@@ -1911,8 +1911,8 @@ packages:
   siginfo@2.0.0:
     resolution: {integrity: sha512-ybx0WO1/8bSBLEWXZvEd7gMW3Sn3JFlW3TvX1nREbDLRNQNaeNN8WK0meBwPdAaOI7TtRRRJn/Es1zhrrCHu7g==}
 
-  solid-devtools@0.31.4:
-    resolution: {integrity: sha512-uRX8Pv3C7fwdrbI8YoNmNtXelpdA2rZwBG77o8D3iC0XnpSov2s9Ck3BG+LCDKwpn7+QDciRXkBksflhJGhFTA==}
+  solid-devtools@0.31.5:
+    resolution: {integrity: sha512-+alyJEeyOtwdrSfMmjaHS7GSP067oZDeUvyJiKG4VlgWFGNu3QjXBHaZc5AhKr6w7wfnOhHVzCUnmk+YOWIWNg==}
     peerDependencies:
       solid-js: ^1.9.0
       vite: ^2.2.3 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
@@ -2035,8 +2035,8 @@ packages:
     resolution: {integrity: sha512-gEymJYKZtKXzzBzM4jqa9w6Q1Jjm7x2d+sh19AdsD4wqnMPDYyvwpsIc2Q/835kHuo3BEQ7CjelGhfTsoBb2MQ==}
     engines: {node: '>= 0.4'}
 
-  typed-array-byte-length@1.0.1:
-    resolution: {integrity: sha512-3iMJ9q0ao7WE9tWcaYKIptkNBuOIcZCCT0d4MRvuuH88fEoEH62IuQe0OtraD3ebQEoTRk8XCBoknUNc1Y67pw==}
+  typed-array-byte-length@1.0.3:
+    resolution: {integrity: sha512-BaXgOuIxz8n8pIq3e7Atg/7s+DpiYrxn4vdot3w9KbnBhcRQq6o3xemQdIfynqSeXeDrF32x+WvfzmOjPiY9lg==}
     engines: {node: '>= 0.4'}
 
   typed-array-byte-offset@1.0.3:
@@ -2691,10 +2691,10 @@ snapshots:
 
   '@rtsao/scc@1.1.0': {}
 
-  '@solid-devtools/debugger@0.24.3(solid-js@1.9.3)':
+  '@solid-devtools/debugger@0.24.4(solid-js@1.9.3)':
     dependencies:
       '@nothing-but/utils': 0.17.0
-      '@solid-devtools/shared': 0.16.0(solid-js@1.9.3)
+      '@solid-devtools/shared': 0.16.1(solid-js@1.9.3)
       '@solid-primitives/bounds': 0.0.122(solid-js@1.9.3)
       '@solid-primitives/cursor': 0.0.115(solid-js@1.9.3)
       '@solid-primitives/event-bus': 1.0.11(solid-js@1.9.3)
@@ -2707,7 +2707,7 @@ snapshots:
       '@solid-primitives/utils': 6.2.3(solid-js@1.9.3)
       solid-js: 1.9.3
 
-  '@solid-devtools/shared@0.16.0(solid-js@1.9.3)':
+  '@solid-devtools/shared@0.16.1(solid-js@1.9.3)':
     dependencies:
       '@nothing-but/utils': 0.17.0
       '@solid-primitives/event-bus': 1.0.11(solid-js@1.9.3)
@@ -3302,7 +3302,7 @@ snapshots:
       es-to-primitive: 1.3.0
       function.prototype.name: 1.1.7
       get-intrinsic: 1.2.6
-      get-symbol-description: 1.0.2
+      get-symbol-description: 1.1.0
       globalthis: 1.0.4
       gopd: 1.2.0
       has-property-descriptors: 1.0.2
@@ -3317,7 +3317,7 @@ snapshots:
       is-regex: 1.2.1
       is-shared-array-buffer: 1.0.3
       is-string: 1.1.1
-      is-typed-array: 1.1.13
+      is-typed-array: 1.1.14
       is-weakref: 1.1.0
       math-intrinsics: 1.0.0
       object-inspect: 1.13.3
@@ -3330,7 +3330,7 @@ snapshots:
       string.prototype.trimend: 1.0.9
       string.prototype.trimstart: 1.0.8
       typed-array-buffer: 1.0.2
-      typed-array-byte-length: 1.0.1
+      typed-array-byte-length: 1.0.3
       typed-array-byte-offset: 1.0.3
       typed-array-length: 1.0.7
       unbox-primitive: 1.1.0
@@ -3634,9 +3634,9 @@ snapshots:
       hasown: 2.0.2
       math-intrinsics: 1.0.0
 
-  get-symbol-description@1.0.2:
+  get-symbol-description@1.1.0:
     dependencies:
-      call-bind: 1.0.8
+      call-bound: 1.0.3
       es-errors: 1.3.0
       get-intrinsic: 1.2.6
 
@@ -3757,7 +3757,7 @@ snapshots:
     dependencies:
       call-bound: 1.0.3
       get-intrinsic: 1.2.6
-      is-typed-array: 1.1.13
+      is-typed-array: 1.1.14
 
   is-date-object@1.1.0:
     dependencies:
@@ -3819,7 +3819,7 @@ snapshots:
       has-symbols: 1.1.0
       safe-regex-test: 1.1.0
 
-  is-typed-array@1.1.13:
+  is-typed-array@1.1.14:
     dependencies:
       which-typed-array: 1.1.16
 
@@ -4209,13 +4209,13 @@ snapshots:
 
   siginfo@2.0.0: {}
 
-  solid-devtools@0.31.4(solid-js@1.9.3)(vite@6.0.3(@types/node@22.10.2)):
+  solid-devtools@0.31.5(solid-js@1.9.3)(vite@6.0.3(@types/node@22.10.2)):
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-syntax-typescript': 7.25.9(@babel/core@7.26.0)
       '@babel/types': 7.26.3
-      '@solid-devtools/debugger': 0.24.3(solid-js@1.9.3)
-      '@solid-devtools/shared': 0.16.0(solid-js@1.9.3)
+      '@solid-devtools/debugger': 0.24.4(solid-js@1.9.3)
+      '@solid-devtools/shared': 0.16.1(solid-js@1.9.3)
       solid-js: 1.9.3
     optionalDependencies:
       vite: 6.0.3(@types/node@22.10.2)
@@ -4338,15 +4338,15 @@ snapshots:
     dependencies:
       call-bind: 1.0.8
       es-errors: 1.3.0
-      is-typed-array: 1.1.13
+      is-typed-array: 1.1.14
 
-  typed-array-byte-length@1.0.1:
+  typed-array-byte-length@1.0.3:
     dependencies:
       call-bind: 1.0.8
       for-each: 0.3.3
       gopd: 1.2.0
       has-proto: 1.2.0
-      is-typed-array: 1.1.13
+      is-typed-array: 1.1.14
 
   typed-array-byte-offset@1.0.3:
     dependencies:
@@ -4355,7 +4355,7 @@ snapshots:
       for-each: 0.3.3
       gopd: 1.2.0
       has-proto: 1.2.0
-      is-typed-array: 1.1.13
+      is-typed-array: 1.1.14
       reflect.getprototypeof: 1.0.8
 
   typed-array-length@1.0.7:
@@ -4363,7 +4363,7 @@ snapshots:
       call-bind: 1.0.8
       for-each: 0.3.3
       gopd: 1.2.0
-      is-typed-array: 1.1.13
+      is-typed-array: 1.1.14
       possible-typed-array-names: 1.0.0
       reflect.getprototypeof: 1.0.8
 
