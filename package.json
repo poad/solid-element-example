@@ -12,8 +12,8 @@
     "lint-fix": "eslint --fix 'src/**/*.{ts,tsx}'"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.2.0",
-    "@eslint/js": "^9.20.0",
+    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/js": "^9.21.0",
     "@solidjs/testing-library": "^0.8.10",
     "@stylistic/eslint-plugin": "^4.0.1",
     "@stylistic/eslint-plugin-js": "^4.0.1",
@@ -21,15 +21,15 @@
     "@stylistic/eslint-plugin-plus": "^4.0.1",
     "@stylistic/eslint-plugin-ts": "^4.0.1",
     "@testing-library/jest-dom": "^6.6.3",
-    "@types/node": "^22.13.4",
-    "babel-preset-solid": "^1.9.3",
-    "eslint": "^9.20.1",
+    "@types/node": "^22.13.5",
+    "babel-preset-solid": "^1.9.5",
+    "eslint": "^9.21.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-solid": "^0.14.5",
     "jsdom": "^26.0.0",
     "pnpm": "^10.4.1",
-    "prettier": "^3.5.1",
+    "prettier": "^3.5.2",
     "solid-devtools": "^0.33.0",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.24.1",
@@ -42,7 +42,7 @@
     "component-register": "^0.8.7",
     "lit-html": "^3.2.1",
     "solid-element": "^1.9.1",
-    "solid-js": "^1.9.4"
+    "solid-js": "^1.9.5"
   },
   "packageManager": "pnpm@10.3.0+sha512.ee592eda8815a8a293c206bb0917c4bb0ff274c50def7cbc17be05ec641fc2d1b02490ce660061356bd0d126a4d7eb2ec8830e6959fb8a447571c631d5a2442d"
 }
