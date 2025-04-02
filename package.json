@@ -21,7 +21,7 @@
     "@stylistic/eslint-plugin-plus": "^4.2.0",
     "@stylistic/eslint-plugin-ts": "^4.2.0",
     "@testing-library/jest-dom": "^6.6.3",
-    "@types/node": "^22.13.16",
+    "@types/node": "^22.13.17",
     "babel-preset-solid": "^1.9.5",
     "eslint": "^9.23.0",
     "eslint-plugin-import": "^2.31.0",
